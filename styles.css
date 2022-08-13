@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: red;
+    width: 10vw;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+ padding: 72px;
+
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 30px 0;
+}
+.main{
+    background-color: yellow;
+    width: 80vw;
+    font-family: 'Fira Sans', sans-serif;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color: rgb(202, 9, 128);
+    height: 78vh;
+    width: 80vw;
+    margin: 144px, auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.devPic img{
+    height: 78vh;
+}
+.hello{
+    font-size: 85px;
+
+}
+.name{
+    font-size: 70px;
+
+}
+.about{
+    font-size: 50px;
+
+}
+.contactform{
+    text-align: center;
+    padding-top: 144px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.contactform h1{
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.contactform form div{
+    padding: 10px 0;
+    
+
+}
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
